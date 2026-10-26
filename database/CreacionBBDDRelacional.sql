@@ -5,8 +5,7 @@ GO
 USE NexarDevPortal;
 GO
 
--- 2. Crear las tablas relacionales tradicionales
--- Tabla: Equipos
+
 CREATE TABLE Equipos (
     EquipoID INT IDENTITY(1,1) PRIMARY KEY,
     NombreEquipo VARCHAR(100) NOT NULL,
